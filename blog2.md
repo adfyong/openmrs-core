@@ -26,7 +26,9 @@ getting the application to work or if I would have too much trouble sifting thro
 expert after all.
 
 Luckily, building the project was rather painless though VERY lengthy. It only required `maven` which I had to install 
-for the core application.
+for the core application. The build process was very simple:
+1. `git clone` the repo
+2. `mvn clean install`
 
 ![A typical build](https://raw.githubusercontent.com/adfyong/openmrs-core/blog/build.png)
 *I quickly learned to @Ignore all of the other tests to save a minute per compile*
