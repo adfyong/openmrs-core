@@ -27,6 +27,7 @@ expert after all.
 
 Luckily, building the project was rather painless though VERY lengthy. It only required `maven` which I had to install 
 for the core application. The build process was very simple:
+
 1. `git clone` the repo
 2. `mvn clean install`
 
